@@ -6,7 +6,7 @@ def initialize (name)
 end
 
   def save
-    @@all.push self
+    @@all << self
   end
 
   def self.all
