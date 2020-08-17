@@ -5,7 +5,6 @@ def initialize (name)
   @name = name
 end
 
-
   def save
     @@all.push self
   end
