@@ -1,7 +1,7 @@
 class Dog
   @@all = []
 
-  def initialize
+  def save
     @@all.push self
   end
 
@@ -13,6 +13,10 @@ class Dog
     @@all.each do |name|
       puts "#{name}"
     end
+  end
+
+  def self.clear_all
+    @@all.clear
   end
 
 
