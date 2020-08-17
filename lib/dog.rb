@@ -9,8 +9,8 @@ def initialize (name)
 end
 
 def save
-  @@all << selfend
-  
+  @@all << self
+end
 
 
   def self.all
