@@ -17,7 +17,7 @@ end
 binding.pry
 
   def self.all
-    @@all
+    @@all.@name
   end
 
   def self.print_all
