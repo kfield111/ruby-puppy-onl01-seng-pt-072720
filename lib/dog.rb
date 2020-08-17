@@ -14,7 +14,7 @@ def save
   @@all << self
 end
 
-binding.pry
+#binding.pry
 
   def self.all
     @@all.name
