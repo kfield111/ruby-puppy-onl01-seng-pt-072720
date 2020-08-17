@@ -8,6 +8,10 @@ def initialize (name)
   @@all << self
 end
 
+def save
+  @@all << selfend
+  
+
 
   def self.all
     @@all
