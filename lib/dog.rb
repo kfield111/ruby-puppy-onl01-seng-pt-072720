@@ -1,7 +1,7 @@
 require 'pry'
 
 class Dog
-  attr_accesssor :name
+  attr_accessor :name
 
   @@all = []
 
