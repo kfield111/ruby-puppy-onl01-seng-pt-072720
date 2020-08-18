@@ -21,7 +21,7 @@ end
   end
 
   def self.print_all
-  @@all.name.each do |dog|
+  @@all.each do |dog|
     puts "#{dog}"
   end
   end
