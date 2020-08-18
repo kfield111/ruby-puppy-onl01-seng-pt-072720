@@ -20,7 +20,7 @@ end
   end
 
   def self.print_all
-  @@all.each_with_object(self).entries
+  @@all
   end
 
 
