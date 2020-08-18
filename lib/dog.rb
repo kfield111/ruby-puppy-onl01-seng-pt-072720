@@ -24,6 +24,7 @@ end
     puts "#{dog}"
   end
   end
+  binding.pry
 
 
   def self.clear_all
