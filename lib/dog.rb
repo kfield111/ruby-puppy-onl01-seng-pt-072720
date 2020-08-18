@@ -20,7 +20,7 @@ end
   end
 
   def self.print_all
-  @@all.each do |name|
+  @@all.each_object(self).entries
     puts "#{name}"
   end
   end
