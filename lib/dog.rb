@@ -21,7 +21,7 @@ binding.pry
   end
 
   def self.print_all
-  @@all.each do |dog|
+  @@all.@name.each do |dog|
     puts "#{dog}"
   end
   end
