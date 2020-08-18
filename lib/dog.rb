@@ -20,7 +20,7 @@ end
   end
 
   def self.print_all
-  @@all
+  puts "#{@@all}"
   end
 
 
